@@ -5,6 +5,7 @@ import HomePage from '../pages/HomePage';
 import ServicesPage from '../pages/ServicesPage';
 import WorkPage from '../pages/WorkPage';
 import AboutPage from '../pages/AboutPage';
+import ContactPage from '../pages/ContactPage';
 import NotFoundPage from '../pages/NotFoundPage';
 
 export const router = createBrowserRouter([
@@ -17,6 +18,8 @@ export const router = createBrowserRouter([
       { path: 'services', element: <ServicesPage /> },
       { path: 'work', element: <WorkPage /> },
       { path: 'about', element: <AboutPage /> },
+      { path: 'contact', element: <ContactPage /> },
+      { path: 'blog', element: <WorkPage /> }, 
     ],
   },
 ]);
