@@ -70,7 +70,7 @@ export default function Navbar() {
         {/* --- BRAND LOGO --- */}
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/20 group-hover:scale-105 transition-transform">
-            {/* Logo Mark with trend chart arrow effect */}
+            {/* Logo Mark */}
             <span className="text-xl font-black italic">D</span>
             <span className="absolute bottom-1 right-1 w-2 h-2 rounded-full bg-cyan-300 animate-ping" />
           </div>
