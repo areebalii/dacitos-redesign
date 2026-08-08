@@ -4,6 +4,7 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import ScrollToTop from '../components/ScrollToTop';
+import Chatbot from '../components/Chatbot'; // Import Chatbot widget
 
 export default function MainLayout() {
   const { scrollYProgress } = useScroll();
@@ -21,6 +22,7 @@ export default function MainLayout() {
         style={{ scaleX }}
       />
       <ScrollToTop />
+
       {/* Grid Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none" />
 
@@ -29,6 +31,9 @@ export default function MainLayout() {
       <main className="relative z-10">
         <Outlet />
       </main>
+
+      {/* Floating Chatbot Widget */}
+      <Chatbot />
 
       <Footer />
     </div>
