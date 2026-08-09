@@ -66,7 +66,7 @@ Ensure you have **Node.js** (v18 or higher) and **npm** / **yarn** installed on 
 
 1. **Clone the repository**:
 ```bash
-git clone [https://github.com/your-username/dacitos-redesign.git](https://github.com/your-username/dacitos-redesign.git)
+git clone [[https://github.com/your-username/dacitos-redesign.git](https://github.com/your-username/dacitos-redesign.git)](https://github.com/areebalii/dacitos-redesign.git)
 cd dacitos-redesign
 
 ```
